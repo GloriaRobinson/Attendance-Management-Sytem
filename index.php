@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <title>Smart College</title>
 </head>
 <body>
@@ -33,9 +34,9 @@
                 <div class="col-sm-4 box-container mt-5 ">
                      <img class="w-50 text-center mt-5 mb-5 mx-5" src="images/education.webp" alt="">
                       <form action=""method="">
-                        <input type="text" class="mt-2 form-control w-75" placeholder="Enter Username" required>    
-                        <input type="password"class="mt-2 form-control w-75 "  placeholder="Enter Password" required>
-                        <input type="submit" class="submit-btn mx-5 m-2 p-2 rounded-3  " value="Login" href="student_attend.html">
+                        <input type="text" class="mt-2 form-control w-75" placeholder="Enter Username" name="username" required>    
+                        <input type="password"class="mt-2 form-control w-75 "  placeholder="Enter Password" name="password" required>
+                        <input type="submit" class="submit-btn mx-5 m-2 p-2 rounded-3  " value="Login" name="login">
                         <p class="">Forget Password<a href="#" class="see_me ">click here</a></p>
                         <p class="">Dont have an Account<a href="register.html" class="see_me">Sign Up</a></p>
                      </form>
