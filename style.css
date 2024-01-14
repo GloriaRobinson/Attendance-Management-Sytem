@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --primary-color:#BCD2E8;
+    --secondary-color:#528AAE;
+    --tertiary-color:#2E5984;
+   --text-color:black;
+}
+body{
+    background-color: white;
+}
+.nav-container{
+    background-color: #BCD2E8;
+    padding: 20px;
+}
+.nav-header{
+    color: var(--tertiary-color);
+}
+/* form detailed */
+.box-container{
+    border:1px solid black;
+    border-radius: 30px;
+}
+.input_value{
+    margin-left: 45px;
+}
+.submit-btn{
+    background-color: var(--tertiary-color);
+    border: none;
+    color: white;
+    width: 50%;
+
+}
+.submit-btn:hover{
+    background-color: var(--secondary-color);
+}
+.see_me{
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin-left: 5px;
+}
