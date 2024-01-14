@@ -28,7 +28,7 @@
             <div class="row">
                
                 <div class="col-sm text-center ">
-                        <form action=""method="">
+                        <form action="./php_logic/register_logic.php"method="">
                         <input type="text"style="margin-left:170px;" class="mt-2 form-control w-75" placeholder="Full Name" name="full_name" required>    
                         <input type="email" style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Email Address" name="email" required>
                         <input type="number" style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Phone Number" name="phone_number" required>
