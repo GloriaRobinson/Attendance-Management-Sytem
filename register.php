@@ -28,7 +28,7 @@
             <div class="row">
                
                 <div class="col-sm text-center ">
-                        <form action="./php_logic/register_logic.php"method="">
+                        <form action="./php_logic/register_logic.php"method="POST">
                         <input type="text"style="margin-left:170px;" class="mt-2 form-control w-75" placeholder="Full Name" name="full_name" required>    
                         <input type="email" style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Email Address" name="email" required>
                         <input type="number" style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Phone Number" name="phone_number" required>
@@ -36,11 +36,12 @@
                         <input type="text" style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Course Name" name="course_name" required>
                         <input type="text" style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Course Code" name="course_code" required>
                         <input type="text"style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Semester" name="semester" required>
-                        <input type="text"style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Class Address" name="room_id" required>
+                        <input type="text"style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Class Address" name="class_name" required>
+                        <input type="text"style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Department Code" name="department_code" required>
                         <input type="text"style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Username" name="username" required>
                         <input type="password"style="margin-left: 170px;" class="mt-2 form-control w-75 "  placeholder="Password" name="password" required>
                         <input type="submit" class="submit-btn mx-5 m-2 p-2 rounded-3 " name="register" value="Register">
-                        <p class="">Return <a href="index.html" class="see_me ">back</a></p>
+                        <p class="">Return <a href="./index.php" class="see_me ">back</a></p>
                         
                      </form>
                 </div>

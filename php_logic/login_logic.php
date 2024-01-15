@@ -15,14 +15,15 @@ if(isset($_POST['login'])){
 	$sts=mysqli_query($conn,$sql);
 	if(mysqli_num_rows($sts)==0){
 		echo "<script>alert('the user not registered');</script>";
-        header("location:./login.php");
+        header("location:../index.php");
 	}else{
 		if(mysqli_num_rows($sts)== 1){
-			
+			// session_start();
+			$_SESSION["username"]=$uname;
 			header("location:../student_attend.php");
 	}else{
 		echo "<script>alert('the user register new account');</script>";
-        header("location:./login.php");
+        header("location:../index.php");
 	}
 }
 

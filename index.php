@@ -38,7 +38,7 @@
                         <input type="password"class="mt-2 form-control w-75 "  placeholder="Enter Password" name="password" required>
                         <input type="submit" class="submit-btn mx-5 m-2 p-2 rounded-3  " value="login" name="login">
                         <p class="">Forget Password<a href="#" class="see_me ">click here</a></p>
-                        <p class="">Dont have an Account<a href="register.html" class="see_me">Sign Up</a></p>
+                        <p class="">Dont have an Account<a href="register.php" class="see_me">Sign Up</a></p>
                      </form>
                 </div>
             </div>

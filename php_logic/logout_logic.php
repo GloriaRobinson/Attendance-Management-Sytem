@@ -1,5 +1,10 @@
 <?php
 include("../connect_db/connection.php");
+session_start();
+if(isset($_SESSION['username'])){
+    session_destroy();
+    header("location:../index.php");
+}
 
 
 
