@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <title>Smart College</title>
+    <title>College of Informatics and Virtual Education</title>
 </head>
 <body>
     <!-- nav section rule -->
@@ -20,7 +20,7 @@
         <div class="container welcome-header">
             <div class="row ">
                 <div class="col-sm-auto text-end"><img class="w-50 img-fluid" src="/images/logobrand.png"  alt=""></div>
-                <div class="col-sm-auto text-center"> <h3 class="py-5">Smart College Of Engineering & Technology</h3></div>
+                <div class="col-sm-auto text-center"> <h3 class="py-5">College of Informatics and Virtual Education</h3></div>
             </div>          
         </div>
     </section>

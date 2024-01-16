@@ -20,7 +20,7 @@
     <section>
         <div class="container text-center fw-bold fs-5 m-4">
             <div class="row">
-                <div class="col-sm-3"><a href="student_attend.html" class="see_me rounded-3 py-2 px-3 ">back</a></div>
+                <div class="col-sm-3"><a href="student_attend.php" class="see_me rounded-3 py-2 px-3 bg-primary text-white">back</a></div>
                 <div class="col-sm-6"><header>Welcome Kululinda Mlekwa </header> </div>
                 <div class="col-sm-3 "><p class=""><a href="index.html" class="see_me rounded-3 py-2 px-3 bg-primary text-white">Logout</a></p></div>
             </div>
@@ -33,7 +33,11 @@
         <div class="container text-center fw-bold fs-5 m-4">
         <header> Attendance 07-01-2024</header>
         </div>
-        <table class="table table-striped table-hover">
+        <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-13">
+            <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg">
+                <table class="table table-striped table-hover">
             <caption>list and brief detail of house</caption>
             <thead>
                 <tr>
@@ -96,10 +100,17 @@
                      </tr>
               </tbody>
         </table>
+            </div>
+        </div>
+    </div>
         <div class="container text-center fw-bold fs-5 m-4">
             <header> Attendance 09-01-2024</header>
             </div>
-            <table class="table table-striped table-hover">
+            <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-13">
+            <div class="bg-white rounded-lg shadow p-6 hover:shadow-lg">
+                <table class="table table-striped table-hover">
                 <caption>list and brief detail of house</caption>
                 <thead>
                     <tr>
@@ -162,6 +173,9 @@
                          </tr>
                   </tbody>
             </table>
+            </div>
+        </div>
+    </div>
     </section>
 </body>
 </html>
