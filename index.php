@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <title>College of Informatics and Virtual Education</title>
+    <title>Smart College</title>
 </head>
 <body>
     <!-- nav section rule -->
@@ -20,7 +20,7 @@
         <div class="container welcome-header">
             <div class="row ">
                 <div class="col-sm-auto text-end"><img class="w-50 img-fluid" src="/images/logobrand.png"  alt=""></div>
-                <div class="col-sm-auto text-center"> <h3 class="py-5">College of Informatics and Virtual Education</h3></div>
+                <div class="col-sm-auto text-center"> <h3 class="py-5">Smart College Of Engineering & Technology</h3></div>
             </div>          
         </div>
     </section>
@@ -37,7 +37,7 @@
                         <input type="text" class="mt-2 form-control w-75" placeholder="Enter Username" name="username" required>    
                         <input type="password"class="mt-2 form-control w-75 "  placeholder="Enter Password" name="password" required>
                         <input type="submit" class="submit-btn mx-5 m-2 p-2 rounded-3  " value="login" name="login">
-                        <p class="">Forget Password<a href="#" class="see_me ">click here</a></p>
+                        <p class="">Forget Password<a href="forgot_password/initiate_with_email.php" class="see_me ">click here</a></p>
                         <p class="">Dont have an Account<a href="register.php" class="see_me">Sign Up</a></p>
                      </form>
                 </div>

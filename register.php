@@ -17,9 +17,7 @@
         </div>
     </section>
     <!-- welcome section view -->
-    <div class="container text center p-3 p-md-4 card mt-5">
     <section>
-    
         <div class="container text-center fw-bold fs-5 m-4">
            <header>FACULTY REGISTRATION </header>          
         </div>
@@ -49,8 +47,6 @@
                 </div>
             </div>
         </div>
-    
     </section>
-    </div>
 </body>
 </html>
